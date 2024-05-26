@@ -14,6 +14,7 @@
 		8A026C392C03B7BA008A1B18 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A026C382C03B7BA008A1B18 /* SearchViewController.swift */; };
 		8A026C3B2C03B821008A1B18 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A026C3A2C03B821008A1B18 /* FavoritesListViewController.swift */; };
 		8A026C3D2C03CD4C008A1B18 /* GHFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A026C3C2C03CD4B008A1B18 /* GHFButton.swift */; };
+		8A026C3F2C03D471008A1B18 /* GHFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A026C3E2C03D471008A1B18 /* GHFTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8A026C382C03B7BA008A1B18 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		8A026C3A2C03B821008A1B18 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
 		8A026C3C2C03CD4B008A1B18 /* GHFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFButton.swift; sourceTree = "<group>"; };
+		8A026C3E2C03D471008A1B18 /* GHFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8A026C382C03B7BA008A1B18 /* SearchViewController.swift */,
 				8A026C3A2C03B821008A1B18 /* FavoritesListViewController.swift */,
 				8A026C3C2C03CD4B008A1B18 /* GHFButton.swift */,
+				8A026C3E2C03D471008A1B18 /* GHFTextField.swift */,
 				8A026C2D2C028D20008A1B18 /* Assets.xcassets */,
 				8A026C2F2C028D20008A1B18 /* LaunchScreen.storyboard */,
 				8A026C322C028D20008A1B18 /* Info.plist */,
@@ -145,6 +148,7 @@
 				8A026C3B2C03B821008A1B18 /* FavoritesListViewController.swift in Sources */,
 				8A026C3D2C03CD4C008A1B18 /* GHFButton.swift in Sources */,
 				8A026C272C028D1C008A1B18 /* SceneDelegate.swift in Sources */,
+				8A026C3F2C03D471008A1B18 /* GHFTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
