@@ -18,9 +18,10 @@ class GHFTextField: UITextField {
         fatalError("init(coder:) has not been implemented")
     }
     
-    init(placeholder: String) {
+    init(placeholder: String, returnKeyType: UIReturnKeyType = .default) {
         super.init(frame: .zero)
         self.placeholder = placeholder
+        self.returnKeyType = returnKeyType
         configure()
     }
     
