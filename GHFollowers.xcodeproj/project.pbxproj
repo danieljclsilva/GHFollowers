@@ -16,6 +16,8 @@
 		8A026C3D2C03CD4C008A1B18 /* GHFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A026C3C2C03CD4B008A1B18 /* GHFButton.swift */; };
 		8A026C3F2C03D471008A1B18 /* GHFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A026C3E2C03D471008A1B18 /* GHFTextField.swift */; };
 		8A026C412C06884E008A1B18 /* FollowerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A026C402C06884E008A1B18 /* FollowerListViewController.swift */; };
+		8AEE7F342C0D162400905476 /* GHFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE7F332C0D162400905476 /* GHFTitleLabel.swift */; };
+		8AEE7F362C0D194600905476 /* GHFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE7F352C0D194600905476 /* GHFBodyLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		8A026C3C2C03CD4B008A1B18 /* GHFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFButton.swift; sourceTree = "<group>"; };
 		8A026C3E2C03D471008A1B18 /* GHFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFTextField.swift; sourceTree = "<group>"; };
 		8A026C402C06884E008A1B18 /* FollowerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListViewController.swift; sourceTree = "<group>"; };
+		8AEE7F332C0D162400905476 /* GHFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFTitleLabel.swift; sourceTree = "<group>"; };
+		8AEE7F352C0D194600905476 /* GHFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFBodyLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				8A026C402C06884E008A1B18 /* FollowerListViewController.swift */,
 				8A026C3C2C03CD4B008A1B18 /* GHFButton.swift */,
 				8A026C3E2C03D471008A1B18 /* GHFTextField.swift */,
+				8AEE7F332C0D162400905476 /* GHFTitleLabel.swift */,
+				8AEE7F352C0D194600905476 /* GHFBodyLabel.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -151,6 +157,8 @@
 				8A026C3B2C03B821008A1B18 /* FavoritesListViewController.swift in Sources */,
 				8A026C412C06884E008A1B18 /* FollowerListViewController.swift in Sources */,
 				8A026C3D2C03CD4C008A1B18 /* GHFButton.swift in Sources */,
+				8AEE7F342C0D162400905476 /* GHFTitleLabel.swift in Sources */,
+				8AEE7F362C0D194600905476 /* GHFBodyLabel.swift in Sources */,
 				8A026C272C028D1C008A1B18 /* SceneDelegate.swift in Sources */,
 				8A026C3F2C03D471008A1B18 /* GHFTextField.swift in Sources */,
 			);
