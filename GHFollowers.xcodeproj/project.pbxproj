@@ -70,22 +70,62 @@
 		8A026C232C028D1C008A1B18 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				8A67BFF62C0FD56500C2DBF6 /* Models */,
+				8A67BFF52C0FD0EC00C2DBF6 /* Support */,
+				8A67BFF42C0FD08A00C2DBF6 /* Extensions */,
+				8A67BFF32C0FD03300C2DBF6 /* Views */,
+				8A67BFF22C0FCFA100C2DBF6 /* Controllers */,
+			);
+			path = GHFollowers;
+			sourceTree = "<group>";
+		};
+		8A67BFF22C0FCFA100C2DBF6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A026C3A2C03B821008A1B18 /* FavoritesListViewController.swift */,
+				8A026C382C03B7BA008A1B18 /* SearchViewController.swift */,
+				8A026C402C06884E008A1B18 /* FollowerListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8A67BFF32C0FD03300C2DBF6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8AEE7F372C0E618E00905476 /* GHFAlertViewController.swift */,
+				8A026C3C2C03CD4B008A1B18 /* GHFButton.swift */,
+				8A026C3E2C03D471008A1B18 /* GHFTextField.swift */,
+				8AEE7F332C0D162400905476 /* GHFTitleLabel.swift */,
+				8AEE7F352C0D194600905476 /* GHFBodyLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8A67BFF42C0FD08A00C2DBF6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8A67BFF02C0FB24B00C2DBF6 /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8A67BFF52C0FD0EC00C2DBF6 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				8A026C242C028D1C008A1B18 /* AppDelegate.swift */,
 				8A026C262C028D1C008A1B18 /* SceneDelegate.swift */,
 				8A026C2D2C028D20008A1B18 /* Assets.xcassets */,
 				8A026C2F2C028D20008A1B18 /* LaunchScreen.storyboard */,
 				8A026C322C028D20008A1B18 /* Info.plist */,
-				8A026C382C03B7BA008A1B18 /* SearchViewController.swift */,
-				8A026C3A2C03B821008A1B18 /* FavoritesListViewController.swift */,
-				8A026C402C06884E008A1B18 /* FollowerListViewController.swift */,
-				8A026C3C2C03CD4B008A1B18 /* GHFButton.swift */,
-				8A026C3E2C03D471008A1B18 /* GHFTextField.swift */,
-				8AEE7F332C0D162400905476 /* GHFTitleLabel.swift */,
-				8AEE7F352C0D194600905476 /* GHFBodyLabel.swift */,
-				8AEE7F372C0E618E00905476 /* GHFAlertViewController.swift */,
-				8A67BFF02C0FB24B00C2DBF6 /* UIViewController+Ext.swift */,
 			);
-			path = GHFollowers;
+			path = Support;
+			sourceTree = "<group>";
+		};
+		8A67BFF62C0FD56500C2DBF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
