@@ -21,6 +21,8 @@
 		8ABBDB142C3B4EBE00EFF06C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBDB132C3B4EBE00EFF06C /* User.swift */; };
 		8ABBDB172C3CA56D00EFF06C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBDB162C3CA56D00EFF06C /* NetworkManager.swift */; };
 		8ABBDB1A2C3DE49600EFF06C /* GHFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBDB192C3DE49600EFF06C /* GHFError.swift */; };
+		8ACD86842C446A870026B577 /* FollowerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACD86832C446A870026B577 /* FollowerCollectionViewCell.swift */; };
+		8ACD86862C446BE50026B577 /* GHFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACD86852C446BE50026B577 /* GHFAvatarImageView.swift */; };
 		8AEE7F342C0D162400905476 /* GHFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE7F332C0D162400905476 /* GHFTitleLabel.swift */; };
 		8AEE7F362C0D194600905476 /* GHFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE7F352C0D194600905476 /* GHFBodyLabel.swift */; };
 		8AEE7F382C0E618E00905476 /* GHFAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE7F372C0E618E00905476 /* GHFAlertViewController.swift */; };
@@ -43,6 +45,8 @@
 		8ABBDB132C3B4EBE00EFF06C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8ABBDB162C3CA56D00EFF06C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		8ABBDB192C3DE49600EFF06C /* GHFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFError.swift; sourceTree = "<group>"; };
+		8ACD86832C446A870026B577 /* FollowerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCollectionViewCell.swift; sourceTree = "<group>"; };
+		8ACD86852C446BE50026B577 /* GHFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFAvatarImageView.swift; sourceTree = "<group>"; };
 		8AEE7F332C0D162400905476 /* GHFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFTitleLabel.swift; sourceTree = "<group>"; };
 		8AEE7F352C0D194600905476 /* GHFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFBodyLabel.swift; sourceTree = "<group>"; };
 		8AEE7F372C0E618E00905476 /* GHFAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFAlertViewController.swift; sourceTree = "<group>"; };
@@ -103,11 +107,13 @@
 		8A67BFF32C0FD03300C2DBF6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8ACD86822C4469FC0026B577 /* Cells */,
 				8AEE7F372C0E618E00905476 /* GHFAlertViewController.swift */,
 				8A026C3C2C03CD4B008A1B18 /* GHFButton.swift */,
 				8A026C3E2C03D471008A1B18 /* GHFTextField.swift */,
 				8AEE7F332C0D162400905476 /* GHFTitleLabel.swift */,
 				8AEE7F352C0D194600905476 /* GHFBodyLabel.swift */,
+				8ACD86852C446BE50026B577 /* GHFAvatarImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,6 +160,14 @@
 				8ABBDB192C3DE49600EFF06C /* GHFError.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8ACD86822C4469FC0026B577 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8ACD86832C446A870026B577 /* FollowerCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +248,11 @@
 				8A026C412C06884E008A1B18 /* FollowerListViewController.swift in Sources */,
 				8A026C3D2C03CD4C008A1B18 /* GHFButton.swift in Sources */,
 				8ABBDB1A2C3DE49600EFF06C /* GHFError.swift in Sources */,
+				8ACD86842C446A870026B577 /* FollowerCollectionViewCell.swift in Sources */,
 				8AEE7F342C0D162400905476 /* GHFTitleLabel.swift in Sources */,
 				8ABBDB122C3B4D6C00EFF06C /* Follower.swift in Sources */,
 				8AEE7F362C0D194600905476 /* GHFBodyLabel.swift in Sources */,
+				8ACD86862C446BE50026B577 /* GHFAvatarImageView.swift in Sources */,
 				8ABBDB172C3CA56D00EFF06C /* NetworkManager.swift in Sources */,
 				8AEE7F382C0E618E00905476 /* GHFAlertViewController.swift in Sources */,
 				8A026C272C028D1C008A1B18 /* SceneDelegate.swift in Sources */,
